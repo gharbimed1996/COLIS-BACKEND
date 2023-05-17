@@ -18,10 +18,16 @@
         <spring-cloud.version>2022.0.1</spring-cloud.version>
     </properties>
     <dependencies>
+
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
             <version>1.5.3.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>io.phasetwo</groupId>
+            <artifactId>phasetwo-admin-client</artifactId>
+            <version>0.1.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
         <dependency>
